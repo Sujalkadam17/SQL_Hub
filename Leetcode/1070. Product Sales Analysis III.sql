@@ -1,4 +1,5 @@
-
+--1070. Product Sales Analysis III
+--Write a solution to select the product id, year, quantity, and price for the first year of every product sold.
 --using window function
 with cte as(
     select product_id , year , quantity , price ,
